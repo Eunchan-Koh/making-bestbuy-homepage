@@ -1,0 +1,419 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.morea {
+    padding: 14px 16px 16.5px;
+    font-size: 13px;
+    text-align: center;
+    background-color: #f5f5f5;
+    vertical-align: sub;
+}
+
+.linka {
+    color: blue;
+    text-decoration: none;
+}
+
+.linka:hover,
+.linka:active {
+    text-decoration: underline;
+}
+
+.head1,
+.head2 {
+    background-color: rgb(0, 70, 190);
+}
+
+.head2 a:hover {
+    color: yellow;
+}
+
+.head1 {
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.head1 a {
+    float: right;
+    display: block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 14px 9px;
+}
+
+.head1 a:hover,
+.head1 a:active {
+    text-decoration: underline;
+}
+
+.head2 {
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.head2 a {
+    float: right;
+    color: white;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.navigation {
+    overflow: hidden;
+    background-color: rgb(0, 61, 166);
+}
+
+.dropdowns {
+    display: block;
+    float: left;
+    width: 63.99999%;
+}
+
+.navigation .dropdown {
+    display: inline-block;
+}
+
+.navigation .dropdown a {
+    display: block;
+    padding: 14px 16px;
+}
+
+.dropbtn-a,
+.dropbtn-b,
+.dropbtn-c,
+.dropbtn-d {
+    color: white;
+}
+
+.dropdown .dropcon-a,
+.dropcon-b,
+.dropcon-c,
+.dropcon-d {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropcon-a a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.one:hover .dropcon-a,
+.two:hover .dropcon-b,
+.three:hover .dropcon-c,
+.four:hover .dropcon-d {
+    display: block;
+}
+
+.one:hover .dropbtn-a,
+.two:hover .dropbtn-b,
+.three:hover .dropbtn-c,
+.four:hover .dropbtn-d {
+    color: yellow;
+}
+
+.dropcon-a a:hover,
+.dropcon-b a:hover,
+.dropcon-c a:hover,
+.dropcon-d a:hover {
+    background-color: #eee;
+}
+
+.imgslides {
+    box-sizing: border-box;
+    height: 500px;
+}
+
+.mySlides {
+    display: none;
+    text-align: center;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 40%;
+    font-size: 1vw;
+    color: blue;
+    background-color: rgba(245, 245, 245, 0.808);
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0 0.5vw;
+    border-radius: 50%;
+    text-align: center;
+    transition: 1s;
+}
+
+.next {
+    right: 20%;
+}
+
+.prev {
+    left: 20%;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.ssac {
+    text-align: center;
+}
+
+.ssac .hssac {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.ssac-h {
+    display: block;
+}
+
+.ssac-h img {
+    float: left;
+    padding: 10px;
+}
+
+.ssac-h strong {
+    text-align: left;
+    display: block;
+}
+
+.ssac-h a {
+    font-size: 12px;
+    text-align: left;
+    display: block;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.offertitle {
+    text-align: center;
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.offerlists {
+    display: block;
+}
+
+.oneo {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 16.99999%;
+    float: left;
+    display: block;
+    height: 50vw;
+}
+
+.twoo {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 33.99999%;
+    float: left;
+    display: block;
+    height: 40vw;
+}
+
+.offerlist {
+    display: block;
+}
+
+.offerlist img {
+    float: left;
+}
+
+.offerlist strong {
+    display: block;
+}
+
+.offerlist .shopnow {
+    text-decoration: none;
+    color: blue;
+    padding: 5px 0;
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.offerlist .shopnow:hover {
+    text-decoration: underline;
+}
+
+.sidem {
+    width: 17.99999%;
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    padding: 1px;
+}
+
+.sidemo {
+    width: 15.99999%;
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    padding: 1px;
+}
+
+.middlem {
+    width: 64.99999%;
+    display: block;
+    float: left;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+.middlem .wat {
+    width: 24.99999%;
+    display: block;
+    float: left;
+}
+
+.middlemo {
+    text-align: left;
+    display: block;
+    width: 99.99999%;
+    box-sizing: border-box;
+    /* padding: 5vw; */
+}
+
+.quad {
+    width: 15.99999%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.ref {
+    background-color: rgb(244, 246, 249);
+    overflow: hidden;
+    padding: 1vw 0;
+    box-sizing: border-box;
+}
+
+.quad a:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.search {
+    margin: 0 0 0 0.3vw;
+    float: left;
+    width: 11vw;
+    height: 2.3vw;
+    padding: 12px;
+    font-size: 0.7vw;
+    box-sizing: border-box;
+    transition: 1s;
+    border-width: .1vw;
+    border-color: gray;
+}
+
+.bbox {
+    box-sizing: border-box;
+    padding: 0.5vw 0;
+    text-align: center;
+    vertical-align: baseline;
+    float: left;
+    width: 4vw;
+    height: 2.3vw;
+    background-color: rgb(0, 61, 166);
+    font-weight: bold;
+    color: white;
+    font-size: 0.75vw;
+}
+
+.search:focus {
+    outline: none;
+    border: .1vw solid;
+    border-color: rgb(0, 61, 166);
+    box-shadow: 0 0 10px #719ECE;
+}
+
+@media only screen and (max-width: 1000px) {
+    .dropdowns {
+        width: 99.99999%;
+    }
+    .sidem {
+        width: 0%;
+        padding: 0;
+    }
+    .middlem {
+        width: 99.99999%;
+    }
+    .middlem .wat {
+        width: 49.99999%;
+    }
+    .middlemo {
+        width: 99.99999%;
+    }
+    .sidemo {
+        width: 0%;
+        padding: 0;
+    }
+    .oneo {
+        width: 24.99999%;
+        height: 100vw;
+    }
+    .twoo {
+        width: 49.99999%;
+        height: 50vw;
+    }
+    .quad {
+        width: 24.99999%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .dropdowns {
+        width: 99.99999%;
+    }
+    .sidem {
+        width: 0%;
+        padding: 0;
+    }
+    .middlem {
+        width: 99.99999%;
+    }
+    .middlem .wat {
+        width: 99.99999%;
+    }
+    .middlemo {
+        width: 99.99999%;
+    }
+    .sidemo {
+        width: 0%;
+        padding: 0;
+    }
+    .oneo {
+        width: 49.99999%;
+        height: 80vw;
+    }
+    .twoo {
+        width: 99.99999%;
+        height: 80vw;
+    }
+    .quad {
+        width: 49.99999%;
+    }
+}
